@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCA52751D35D84600DFA438 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA52741D35D84600DFA438 /* main.m */; };
+		FCCA52781D35D84600DFA438 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA52771D35D84600DFA438 /* AppDelegate.m */; };
+		FCCA527B1D35D84600DFA438 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA527A1D35D84600DFA438 /* ViewController.m */; };
+		FCCA527E1D35D84600DFA438 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCA527C1D35D84600DFA438 /* Main.storyboard */; };
+		FCCA52811D35D84600DFA438 /* volumeView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCCA527F1D35D84600DFA438 /* volumeView.xcdatamodeld */; };
+		FCCA52831D35D84600DFA438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCA52821D35D84600DFA438 /* Assets.xcassets */; };
+		FCCA52861D35D84600DFA438 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCA52841D35D84600DFA438 /* LaunchScreen.storyboard */; };
+		FCCA52911D35D84600DFA438 /* volumeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA52901D35D84600DFA438 /* volumeViewTests.m */; };
+		FCCA529C1D35D84600DFA438 /* volumeViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA529B1D35D84600DFA438 /* volumeViewUITests.m */; };
+		FCCA52AB1D35D8A300DFA438 /* MVView.m in Sources */ = {isa = PBXBuildFile; fileRef = FCCA52AA1D35D8A300DFA438 /* MVView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCA528D1D35D84600DFA438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCA52681D35D84600DFA438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCA526F1D35D84600DFA438;
+			remoteInfo = volumeView;
+		};
+		FCCA52981D35D84600DFA438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCA52681D35D84600DFA438 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCA526F1D35D84600DFA438;
+			remoteInfo = volumeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCCA52701D35D84600DFA438 /* volumeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volumeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCA52741D35D84600DFA438 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCCA52761D35D84600DFA438 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCCA52771D35D84600DFA438 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCCA52791D35D84600DFA438 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCCA527A1D35D84600DFA438 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCCA527D1D35D84600DFA438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCA52801D35D84600DFA438 /* volumeView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = volumeView.xcdatamodel; sourceTree = "<group>"; };
+		FCCA52821D35D84600DFA438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCA52851D35D84600DFA438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCCA52871D35D84600DFA438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCA528C1D35D84600DFA438 /* volumeViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volumeViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCA52901D35D84600DFA438 /* volumeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = volumeViewTests.m; sourceTree = "<group>"; };
+		FCCA52921D35D84600DFA438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCA52971D35D84600DFA438 /* volumeViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = volumeViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCA529B1D35D84600DFA438 /* volumeViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = volumeViewUITests.m; sourceTree = "<group>"; };
+		FCCA529D1D35D84600DFA438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCA52A91D35D8A300DFA438 /* MVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVView.h; sourceTree = "<group>"; };
+		FCCA52AA1D35D8A300DFA438 /* MVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCA526D1D35D84600DFA438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA52891D35D84600DFA438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA52941D35D84600DFA438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCA52671D35D84600DFA438 = {
+			isa = PBXGroup;
+			children = (
+				FCCA52721D35D84600DFA438 /* volumeView */,
+				FCCA528F1D35D84600DFA438 /* volumeViewTests */,
+				FCCA529A1D35D84600DFA438 /* volumeViewUITests */,
+				FCCA52711D35D84600DFA438 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCA52711D35D84600DFA438 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA52701D35D84600DFA438 /* volumeView.app */,
+				FCCA528C1D35D84600DFA438 /* volumeViewTests.xctest */,
+				FCCA52971D35D84600DFA438 /* volumeViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCA52721D35D84600DFA438 /* volumeView */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA52761D35D84600DFA438 /* AppDelegate.h */,
+				FCCA52771D35D84600DFA438 /* AppDelegate.m */,
+				FCCA52791D35D84600DFA438 /* ViewController.h */,
+				FCCA527A1D35D84600DFA438 /* ViewController.m */,
+				FCCA527C1D35D84600DFA438 /* Main.storyboard */,
+				FCCA52821D35D84600DFA438 /* Assets.xcassets */,
+				FCCA52841D35D84600DFA438 /* LaunchScreen.storyboard */,
+				FCCA52871D35D84600DFA438 /* Info.plist */,
+				FCCA527F1D35D84600DFA438 /* volumeView.xcdatamodeld */,
+				FCCA52731D35D84600DFA438 /* Supporting Files */,
+				FCCA52A91D35D8A300DFA438 /* MVView.h */,
+				FCCA52AA1D35D8A300DFA438 /* MVView.m */,
+			);
+			path = volumeView;
+			sourceTree = "<group>";
+		};
+		FCCA52731D35D84600DFA438 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA52741D35D84600DFA438 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCCA528F1D35D84600DFA438 /* volumeViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA52901D35D84600DFA438 /* volumeViewTests.m */,
+				FCCA52921D35D84600DFA438 /* Info.plist */,
+			);
+			path = volumeViewTests;
+			sourceTree = "<group>";
+		};
+		FCCA529A1D35D84600DFA438 /* volumeViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCA529B1D35D84600DFA438 /* volumeViewUITests.m */,
+				FCCA529D1D35D84600DFA438 /* Info.plist */,
+			);
+			path = volumeViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCA526F1D35D84600DFA438 /* volumeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCA52A01D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeView" */;
+			buildPhases = (
+				FCCA526C1D35D84600DFA438 /* Sources */,
+				FCCA526D1D35D84600DFA438 /* Frameworks */,
+				FCCA526E1D35D84600DFA438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = volumeView;
+			productName = volumeView;
+			productReference = FCCA52701D35D84600DFA438 /* volumeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCA528B1D35D84600DFA438 /* volumeViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCA52A31D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeViewTests" */;
+			buildPhases = (
+				FCCA52881D35D84600DFA438 /* Sources */,
+				FCCA52891D35D84600DFA438 /* Frameworks */,
+				FCCA528A1D35D84600DFA438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCA528E1D35D84600DFA438 /* PBXTargetDependency */,
+			);
+			name = volumeViewTests;
+			productName = volumeViewTests;
+			productReference = FCCA528C1D35D84600DFA438 /* volumeViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCA52961D35D84600DFA438 /* volumeViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCA52A61D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeViewUITests" */;
+			buildPhases = (
+				FCCA52931D35D84600DFA438 /* Sources */,
+				FCCA52941D35D84600DFA438 /* Frameworks */,
+				FCCA52951D35D84600DFA438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCA52991D35D84600DFA438 /* PBXTargetDependency */,
+			);
+			name = volumeViewUITests;
+			productName = volumeViewUITests;
+			productReference = FCCA52971D35D84600DFA438 /* volumeViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCA52681D35D84600DFA438 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = lifecycle;
+				TargetAttributes = {
+					FCCA526F1D35D84600DFA438 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FCCA528B1D35D84600DFA438 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCCA526F1D35D84600DFA438;
+					};
+					FCCA52961D35D84600DFA438 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FCCA526F1D35D84600DFA438;
+					};
+				};
+			};
+			buildConfigurationList = FCCA526B1D35D84600DFA438 /* Build configuration list for PBXProject "volumeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCA52671D35D84600DFA438;
+			productRefGroup = FCCA52711D35D84600DFA438 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCA526F1D35D84600DFA438 /* volumeView */,
+				FCCA528B1D35D84600DFA438 /* volumeViewTests */,
+				FCCA52961D35D84600DFA438 /* volumeViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCA526E1D35D84600DFA438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCA52861D35D84600DFA438 /* LaunchScreen.storyboard in Resources */,
+				FCCA52831D35D84600DFA438 /* Assets.xcassets in Resources */,
+				FCCA527E1D35D84600DFA438 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA528A1D35D84600DFA438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA52951D35D84600DFA438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCA526C1D35D84600DFA438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCA527B1D35D84600DFA438 /* ViewController.m in Sources */,
+				FCCA52781D35D84600DFA438 /* AppDelegate.m in Sources */,
+				FCCA52811D35D84600DFA438 /* volumeView.xcdatamodeld in Sources */,
+				FCCA52751D35D84600DFA438 /* main.m in Sources */,
+				FCCA52AB1D35D8A300DFA438 /* MVView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA52881D35D84600DFA438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCA52911D35D84600DFA438 /* volumeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCA52931D35D84600DFA438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCA529C1D35D84600DFA438 /* volumeViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCA528E1D35D84600DFA438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCA526F1D35D84600DFA438 /* volumeView */;
+			targetProxy = FCCA528D1D35D84600DFA438 /* PBXContainerItemProxy */;
+		};
+		FCCA52991D35D84600DFA438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCA526F1D35D84600DFA438 /* volumeView */;
+			targetProxy = FCCA52981D35D84600DFA438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCCA527C1D35D84600DFA438 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCA527D1D35D84600DFA438 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCCA52841D35D84600DFA438 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCA52851D35D84600DFA438 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCA529E1D35D84600DFA438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FCCA529F1D35D84600DFA438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCCA52A11D35D84600DFA438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = volumeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCCA52A21D35D84600DFA438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = volumeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCCA52A41D35D84600DFA438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = volumeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/volumeView.app/volumeView";
+			};
+			name = Debug;
+		};
+		FCCA52A51D35D84600DFA438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = volumeViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/volumeView.app/volumeView";
+			};
+			name = Release;
+		};
+		FCCA52A71D35D84600DFA438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = volumeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = volumeView;
+			};
+			name = Debug;
+		};
+		FCCA52A81D35D84600DFA438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = volumeViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifecycle.cn.volumeViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = volumeView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCA526B1D35D84600DFA438 /* Build configuration list for PBXProject "volumeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCA529E1D35D84600DFA438 /* Debug */,
+				FCCA529F1D35D84600DFA438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCA52A01D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCA52A11D35D84600DFA438 /* Debug */,
+				FCCA52A21D35D84600DFA438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCCA52A31D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCA52A41D35D84600DFA438 /* Debug */,
+				FCCA52A51D35D84600DFA438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCCA52A61D35D84600DFA438 /* Build configuration list for PBXNativeTarget "volumeViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCA52A71D35D84600DFA438 /* Debug */,
+				FCCA52A81D35D84600DFA438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCCA527F1D35D84600DFA438 /* volumeView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCCA52801D35D84600DFA438 /* volumeView.xcdatamodel */,
+			);
+			currentVersion = FCCA52801D35D84600DFA438 /* volumeView.xcdatamodel */;
+			path = volumeView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCCA52681D35D84600DFA438 /* Project object */;
+}
